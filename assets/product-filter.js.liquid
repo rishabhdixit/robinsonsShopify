@@ -1,0 +1,33 @@
+
+// (function ($) {
+// function getFilterProducts(tag){
+//     $.ajax({
+//         type: 'GET',
+//         url: '/products.json',
+//         dataType: 'json',
+//         success: function(res){
+//             filterProducts(res.products, tag)
+//          },
+//         error: function(status){
+//              alert(status);
+//         }
+//     })
+// }
+
+// function filterProducts(products, tag) {
+//     var filteredProducts = products.filter(function(product){
+//         return product.tags.indexOf(tag) > -1;
+//     });
+//     console.log(filteredProducts);
+
+// }
+
+// $(function(){
+//     $('.js-collection-filter').on('change', function(e){
+//         e.preventDefault();
+//         console.log('$(this).val()', $(this).val());
+//         var tag = $(this).val()
+//         getFilterProducts(tag)
+//     });
+// });
+// }(jQuery));
